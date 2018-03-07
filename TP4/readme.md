@@ -34,6 +34,8 @@ Les services Android permettent de réaliser des actions en arrière-plan, c'est
 > Pour le constructeur.. je vous laisse chercher
 
 * Ce service devra tout d'abord afficher un message dans les logs 2 secondes après son lancement.
+> Voir la classe android `Log`
+>
 > Nous n'affichons pas de Toast car un `IntentService` execute ses requêtes sur un nouveau thread, et Android ne permet pas des actions UI en dehors du main thread.
 * Remplacer le message dans les logs par un intent renvoyé à votre activité principale. <https://developer.android.com/training/run-background-service/report-status.html>
   1. Créer le broadcast receiver
