@@ -44,26 +44,26 @@ Les favoris devront être persistant. C'est à dire qu'ils devront être conserv
 
 ## Travail à réaliser
 
-### Rédaction des spécifications fonctionnelles avec
+<!-- ### Rédaction des spécifications fonctionnelles avec
 
 * Les cas d'utilisation principaux
 * Les modèles de données globaux
 * Les maquettes IHM
 
-### Réalisation de l'application à partir des besoins exprimés et des spécifications
+### Réalisation de l'application à partir des besoins exprimés et des spécifications -->
 
 ## Modalités d'évaluation du projet
 
-Le projet s'effectue uniquement en **binôme**.
+<!--Le projet s'effectue uniquement en **binôme**.
 Les binômes doivent se déclarer dans le document pré-renseigné sur le drive d’échange Android.
 Le projet donne lieu :
 
 * à une présentation orale (démo)
-* à un livrable sous forme d’archives (zip NOM1_NOM2)
+* à un livrable sous forme d’archives (zip NOM1_NOM2) -->
 
 ### Présentation orale
 
-Date : **A definir**
+<!--Date : **A definir**
 
 Lieu : **A definir**
 
@@ -72,11 +72,11 @@ Chaque **binôme** sera convoqué à une heure précise.
 * Il dispose de 20 minutes pour préparer la démonstration (configuration de l'environnement, éditeur ouvert avec code et API du projet et toute initialisation nécessaire au lancement de l'application).
 * Puis il dispose de 10 minutes pour présenter son travail
 * Les 10 minutes ne pourront être dépassées : si vous n'êtes pas prêts à l'heure, le temps sera décompté.
-* Présentez les différentes fonctionnalités réalisées du projet. Veillez à disposer de jeux d'essai convaincants.
+* Présentez les différentes fonctionnalités réalisées du projet. Veillez à disposer de jeux d'essai convaincants. -->
 
 ### Remise du fichier à l'enseignant
 
-Préparer une archive contenant :
+<!-- Préparer une archive contenant :
 
 * un répertoire « src » avec le code source du projet
 * un répertoire «doc » avec
@@ -90,4 +90,4 @@ Ce fichier sera envoyé à mickael.contreras@gmail.com au plus la veille de la s
 * La pièce jointe (archive) aura également le nom : NOM1_NOM2.
 
 Si plusieurs envois de même sujet sont envoyés, seul le dernier sera pris en compte, quel que soit l'expéditeur (NOM1 ou NOM2).
-L'évaluation du projet tiendra compte de la présentation, de l’état d’avancement du projet, du nombre de fonctionnalités implémentées, de l’ergonomie de l’application et de la qualité des livrables (documents et code source).
+L'évaluation du projet tiendra compte de la présentation, de l’état d’avancement du projet, du nombre de fonctionnalités implémentées, de l’ergonomie de l’application et de la qualité des livrables (documents et code source). -->
