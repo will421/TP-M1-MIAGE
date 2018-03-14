@@ -10,8 +10,9 @@ L'affichage des rappels sera fait par l'intermédiaire de notifications.
 
 ### Pouvoir selectionner un arrêt et une direction à surveiller
 
-* Niveau 1 : Sélectionner depuis la liste statique donnée
-* Niveau 2 : Sélectionner depuis une liste fournie par l'API TAG
+#### Niveau 1 : Sélectionner depuis la liste statique donnée
+
+#### Niveau 2 : Sélectionner depuis une liste fournie par l'API TAG
 
 ### Recupération et affichage du prochain passage
 
@@ -57,7 +58,7 @@ Avertir l'utilisateur lorsqu'un incident se produit impactant la ligne surveill�
 
 ## Modalités d'évaluation du projet
 
-Le projet s'effectue uniquement en binome.
+Le projet s'effectue en binome.
 Les binomes doivent se déclarer sur ce pad : <https://semestriel.framapad.org/p/Binomes-M1-MIAGE-Android-2018>
 Le projet donne lieu :
 
