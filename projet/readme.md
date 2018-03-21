@@ -101,5 +101,5 @@ L'évaluation du projet tiendra compte de la présentation, de l’état d’ava
 
 ## Outils sympa
 
-* Pour générer des classes java à partir du json : <http://www.jsonschema2pojo.org/>
+* Pour générer des classes java à partir du json : <http://www.jsonschema2pojo.org/> (Source type : `JSON`, Annotation style : `Gson`)
 * Pour simplifier les `findViewById` : <http://jakewharton.github.io/butterknife/>
