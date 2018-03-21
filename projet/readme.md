@@ -65,7 +65,7 @@ C'est votre application et vous en êtes le premier utilisateur, si vous pensez 
 
 ## Modalités d'évaluation du projet
 
-Le projet s'effectue en binome. M'envoyer un mail à `william.bobo@hardis.fr` pour l'annoncer avant le 1er avril.
+Le projet s'effectue en binome. M'envoyer un mail à `william.bobo@hardis.fr` pour l'annoncer en début de projet.
 Le projet donne lieu à un livrable sous forme d'une archive `NOM1_NOM2.zip`
 
 ### Remise du projet
@@ -79,6 +79,6 @@ Préparer une archive contenant :
   * Un fichier « compte-rendu.pdf » présentant un brève compte rendu de l’état du projet (états d’avancement : étapes réalisées et étapes non réalisées, difficultés rencontrées, choix d’architecture, idées d’améliorations).
 * un répertoire « bin » avec le fichier binaire « apk » de l’application
 
-Ce fichier sera envoyé à déposer sur le moodle.
+Ce fichier sera envoyé à déposer sur le moodle avant le *To be defined (autour de mai)*.
 
 L'évaluation du projet tiendra compte de la présentation, de l’état d’avancement du projet, des fonctionnalités implémentées, de l’ergonomie de l’application et de la qualité des livrables (documents et code source).
