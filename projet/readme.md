@@ -79,11 +79,6 @@ Préparer une archive contenant :
   * Un fichier « compte-rendu.pdf » présentant un brève compte rendu de l’état du projet (états d’avancement : étapes réalisées et étapes non réalisées, difficultés rencontrées, choix d’architecture, idées d’améliorations).
 * un répertoire « bin » avec le fichier binaire « apk » de l’application
 
-Ce fichier sera envoyé à `william.bobo@hardis.fr` avant le **_date à definir_**.
-
-* Le message aura pour sujet : NOM1_NOM2 (nom de chaque personne du binôme en ordre alphabétique).
-* La pièce jointe (archive) aura également le nom : NOM1_NOM2.
-
-Si plusieurs envois de même sujet sont envoyés, seul le dernier sera pris en compte, quel que soit l'expéditeur (NOM1 ou NOM2).
+Ce fichier sera envoyé à déposer sur le moodle.
 
 L'évaluation du projet tiendra compte de la présentation, de l’état d’avancement du projet, des fonctionnalités implémentées, de l’ergonomie de l’application et de la qualité des livrables (documents et code source).
