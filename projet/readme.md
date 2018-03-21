@@ -6,6 +6,8 @@ L'objectif du projet est de réaliser une application Android de rappel du proch
 Pour cela vous utiliserez l'API REST proposée par Metromobilité : <https://www.metromobilite.fr/pages/opendata/OpenDataApi.html>
 L'affichage des rappels sera fait en utilisant des notifications.
 
+> Ce sujet sera mis à jour en fonctions des nouvelles idées, retours et remarques. Surveillez de temps en temps qu'un nouveau commit n'est pas apparu sur le git, ça peut être une information pouvant vous aider.
+
 ## Fonctionnalités
 
 ### Pouvoir sélectionner un arrêt et une direction à surveiller
