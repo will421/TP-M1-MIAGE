@@ -93,3 +93,7 @@ call.enqueue(new Callback<YesNoAnswer>() {
 
 * Dans votre activity, à la reception du message du service : Afficher le contenu de `answer` dans une notification.
 * Ajouter un bouton sur la notification : Ce bouton devra ouvrir une page web vers l'url contenu dans `image`
+
+Schéma résultat simplifié : 
+
+![Diagramme de séquence simplifié](https://raw.githubusercontent.com/will421/TP-M1-MIAGE/master/TP4/assets/tp4_sequence.png "Diagramme de séquence simplifié")
