@@ -96,4 +96,4 @@ call.enqueue(new Callback<YesNoAnswer>() {
 
 Schéma résultat simplifié : 
 
-![Diagramme de séquence simplifié](https://raw.githubusercontent.com/will421/TP-M1-MIAGE/master/TP4/assets/tp4_sequence.png "Diagramme de séquence simplifié")
+![Diagramme de séquence simplifié](https://raw.githubusercontent.com/will421/TP-M1-MIAGE/master/TP4/assets/tp4_sequence.PNG "Diagramme de séquence simplifié")
