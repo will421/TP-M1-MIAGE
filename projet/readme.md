@@ -65,7 +65,7 @@ C'est votre application et vous en êtes le premier utilisateur, si vous pensez 
 
 ## Modalités d'évaluation du projet
 
-Le projet s'effectue en binome.
+Le projet s'effectue en binome. M'envoyer un mail à `william.bobo@hardis.fr` pour l'annoncer avant le 1er avril.
 Le projet donne lieu à un livrable sous forme d'une archive `NOM1_NOM2.zip`
 
 ### Remise du projet
