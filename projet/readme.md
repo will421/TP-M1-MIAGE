@@ -15,6 +15,8 @@ Utilisez les api suivantes pour :
 * Récupérer la liste des lignes : <https://data.metromobilite.fr/api/routers/default/index/routes>
 * Récupérer la liste des arrêts d'une ligne (exemple pour la ligne A) : <https://data.metromobilite.fr/api/routers/default/index/routes/SEM:A/clusters>
 
+Vous ferez en sorte de ne traiter que les lignes de tramway et bus TAG.
+
 ### Récupération et affichage du prochain passage
 
 #### Etape 1 : Afficher le prochain passage dans un champ texte de l'application
