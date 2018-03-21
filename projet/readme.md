@@ -98,3 +98,8 @@ Préparer une archive contenant :
 Ce fichier sera envoyé à déposer sur le moodle avant le *To be defined (autour de mai)*.
 
 L'évaluation du projet tiendra compte de la présentation, de l’état d’avancement du projet, des fonctionnalités implémentées, de l’ergonomie de l’application et de la qualité des livrables (documents et code source).
+
+## Outils sympa
+
+* Pour générer des classes java à partir du json : <http://www.jsonschema2pojo.org/>
+* Pour simplifier les `findViewById` : <http://jakewharton.github.io/butterknife/>
