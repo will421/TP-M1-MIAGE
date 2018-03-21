@@ -52,7 +52,7 @@ Utilisez l'API "Données dynamiques" avec le paramètre `evtTC`.
 
 ### Un peu de créativité (*optionnelle*)
 
-C'est votre application et vous en êtes le premier utilisateur, si vous pensez que des fonctionnalités peuvent être ajoutées/modifiées et qu'elles apportent une plus value à l'utilisateur. Vous pouvez le faire. Idée simple : Utiliser des vibrations.
+C'est votre application et vous en êtes le premier utilisateur, si vous pensez que des fonctionnalités peuvent être ajoutées/modifiées et qu'elles apportent une plus value à l'utilisateur. Faites-le. Idée simple : Utiliser des vibrations.
 
 ## Travail à réaliser
 
