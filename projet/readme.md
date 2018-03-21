@@ -35,10 +35,20 @@ L'affichage devra en plus être fait par l'intermédiaire d'une notification. Y 
 Toucher la notification renverra vers la page de configuration du rappel.
 > Attention aux Threads, un `IntentService` en crée déjà un par défaut.
 
-### Système de favoris
+### Simplifier le parametrage du rappel pour l'utilisateur
+
+#### Possibilité 1
 
 Permettre l'enregistrement, la sélection et la suppression d'arrêt+direction en favoris.
 Les favoris devront être persistants. C'est à dire qu'ils devront être conservés aux travers des lancements de l'application.
+
+#### Possibilité 2
+
+Enregistrer les rappels les plus recents pour les re-proposer à l'utilisateurs. Moins d'IHM nécéssaire mais *peut-être* un peu d'algorithme pour proposer le meilleur arrêt+direction en fonction de la quantité d'utilisation et de la date de dernière utilisation ?
+
+#### Possibilité 3
+
+Si une idée interessante, la proposer.
 
 ### Géolocalisation (*optionnelle*)
 
