@@ -8,26 +8,26 @@ L'affichage des rappels sera fait en utilisant des notifications.
 
 ## Fonctionnalités
 
-### Pouvoir selectionner un arrêt et une direction à surveiller
+### Pouvoir sélectionner un arrêt et une direction à surveiller
 
 Utilisez les api suivantes pour :
 
-* Recupérer la liste des lignes : <https://data.metromobilite.fr/api/routers/default/index/routes>
-* Recupérer la liste des arrêts d'une ligne (exemple pour la ligne A) : <https://data.metromobilite.fr/api/routers/default/index/routes/SEM:A/clusters>
+* Récupérer la liste des lignes : <https://data.metromobilite.fr/api/routers/default/index/routes>
+* Récupérer la liste des arrêts d'une ligne (exemple pour la ligne A) : <https://data.metromobilite.fr/api/routers/default/index/routes/SEM:A/clusters>
 
-### Recupération et affichage du prochain passage
+### Récupération et affichage du prochain passage
 
 #### Etape 1 : Afficher le prochain passage dans un champ texte de l'application
 
-Vous devrez recupérer les horaires du prochain passage pour l'arrêt et la direction sélectionnés.
-La récuperation devra se faire par un appel régulier (toute les 30 secondes) à l'API REST de Metromobilité **"Horaires pour une zone d'arrêt"**
+Vous devrez récupérer les horaires du prochain passage pour l'arrêt et la direction sélectionnés.
+La récupération devra se faire par un appel régulier (toute les 30 secondes) à l'API REST de Metromobilité **"Horaires pour une zone d'arrêt"**
 L'affichage devra contenir le temps d'attente pour le prochain passage et optionnellement, celui d'après.
 
 #### Etape 2 : Fonctionne même lorsque l'application n'est plus au premier plan
 
-L'affichage devra en plus être fait par l'intermediaire d'une notification. Y afficher l'arrêt, la direction, le temps d'attente pour le prochain passage et optionnellement, celui d'après.
+L'affichage devra en plus être fait par l'intermédiaire d'une notification. Y afficher l'arrêt, la direction, le temps d'attente pour le prochain passage et optionnellement, celui d'après.
 Toucher la notification renverra vers la page de configuration du rappel.
-> Attention aux Threads, un `IntentService` en crée déjà un par defaut.
+> Attention aux Threads, un `IntentService` en crée déjà un par défaut.
 
 ### Système de favoris
 
@@ -36,7 +36,7 @@ Les favoris devront être persistants. C'est à dire qu'ils devront être conser
 
 ### Géolocalisation (*optionnelle*)
 
-Aider l'utilisateur à selectionner un arrêt en proposant le ou les arrêts les plus proches.
+Aider l'utilisateur à sélectionner un arrêt en proposant le ou les arrêts les plus proches.
 Pour cela, utilisez l'API **"Liste des lignes de transport à proximité d'un point"** et <https://developer.android.com/training/location/retrieve-current.html>
 
 ### Alertes TAG (*optionnelle*)
@@ -52,20 +52,20 @@ Utilisez l'API "Données dynamiques" avec le paramètre `evtTC`.
 
 ### Un peu de créativité (*optionnelle*)
 
-C'est votre application et vous en êtes le premier utilisateur, si vous pensez que des fonctionnalités peuvent être ajoutées/modifiées et qu'elles apportent une plus value à l'utilisateur. Faites-le. Idée simple : Utiliser des vibrations.
+C'est votre application et vous en êtes le premier utilisateur, si vous pensez que des fonctionnalités peuvent être ajoutées/modifiées et qu'elles apportent une plus-value à l'utilisateur. Faites-le. Idée simple : Utiliser des vibrations.
 
 ## Travail à réaliser
 
 ### Préparations
 
-* Réaliser des maquettes IHM de l'application avec un outil permettant de réaliser des mockups ou wireframe de votre choix. Par exemple : <https://ninjamock.com/> ou l'outil de design inclus dans Android Studio. Inutile de les faire evoluer avec le projet, c'est pour vous faire une idée initiale.
-* Realiser pour chacune des fonctionnalités : des diagrammes de sequences representant les interactions entre vos composants applicatif. Ces diagrammes seront à faire évoluer avec les changements de votre implémentation. Ils serviront à demontrer que vous comprenez ce que vous faîtes.
+* Réaliser des maquettes IHM de l'application avec un outil permettant de réaliser des mockups ou wireframe de votre choix. Par exemple : <https://ninjamock.com/> ou l'outil de design inclus dans Android Studio. Inutile de les faire évoluer avec le projet, c'est pour vous faire une idée initiale.
+* Realiser pour chacune des fonctionnalités : des diagrammes de séquences représentant les interactions entre vos composants applicatif. Ces diagrammes seront à faire évoluer avec les changements de votre implémentation. Ils serviront à démontrer que vous comprenez ce que vous faîtes.
 
 ### Réalisation de l'application
 
 ## Modalités d'évaluation du projet
 
-Le projet s'effectue en binome. M'envoyer un mail à `william.bobo@hardis.fr` pour l'annoncer en début de projet.
+Le projet s'effectue en binôme. M'envoyer un mail à `william.bobo@hardis.fr` pour l'annoncer en début de projet.
 Le projet donne lieu à un livrable sous forme d'une archive `NOM1_NOM2.zip`
 
 ### Remise du projet
@@ -75,7 +75,7 @@ Préparer une archive contenant :
 * un répertoire « src » avec le code source du projet
 * un répertoire « doc » avec
   * Vos fichiers images de diagramme de séquence.
-  * Vos fichiers image de maquette IHM pré-developement.
+  * Vos fichiers image de maquette IHM pré-développement.
   * Un fichier « compte-rendu.pdf » présentant un brève compte rendu de l’état du projet (états d’avancement : étapes réalisées et étapes non réalisées, difficultés rencontrées, choix d’architecture, idées d’améliorations).
 * un répertoire « bin » avec le fichier binaire « apk » de l’application
 
