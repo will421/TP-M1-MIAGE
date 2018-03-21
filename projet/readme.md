@@ -10,6 +10,8 @@ L'affichage des rappels sera fait en utilisant des notifications.
 
 ## Fonctionnalités
 
+Qu'il y ai des fonctionnalités marqué comme *optionnelle* ne veut pas dire que réaliser uniquement les fonctionnalités obligatoires suffit à avoir une note maximale. Elles sont *optionnelle* pour vous donner du mou sur ce que vous voulez réaliser.
+
 ### Pouvoir sélectionner un arrêt et une direction à surveiller
 
 Utilisez les api suivantes pour :
