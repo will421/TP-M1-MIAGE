@@ -23,21 +23,23 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     
-        Intent githubIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com"));
-        PendingIntent githubPendingIntent =
-                PendingIntent.getActivity(this, 0, githubIntent, 0);
-
-        final NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(this)
-                .setSmallIcon(android.R.drawable.sym_def_app_icon)
-                .setContentTitle("Hello world")
-                .setPriority(NotificationCompat.PRIORITY_DEFAULT)
-                .addAction(android.R.drawable.ic_menu_compass, "Go to github",
-                        githubPendingIntent);
-    
         BroadcastReceiver receiver = new BroadcastReceiver() {
             @Override
             public void onReceive(Context context, Intent intent) {
                 //we have only one action in the filter, so we do not need to check it
+    
+                Intent githubIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(intent.getStringExtra(MyService.EXTRA_IMAGE)));
+                PendingIntent githubPendingIntent =
+                        PendingIntent.getActivity(MainActivity.this, 0, githubIntent, 0);
+    
+                final NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(MainActivity.this)
+                        .setSmallIcon(android.R.drawable.sym_def_app_icon)
+                        .setContentTitle("Answer")
+                        .setContentText(intent.getStringExtra(MyService.EXTRA_ANSWER))
+                        .setPriority(NotificationCompat.PRIORITY_DEFAULT)
+                        .addAction(android.R.drawable.ic_menu_compass, "See gif",
+                                githubPendingIntent);
+                
                 NotificationManagerCompat notificationManager = NotificationManagerCompat.from(MainActivity.this);
                 notificationManager.notify(NOTIFICATION_ID, mBuilder.build());
             }
@@ -52,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
                 myServiceIntentFilter);
     
         final Intent serviceIntent = new Intent(this, MyService.class);
-    
     
         Button b = (Button) findViewById(R.id.button);
         b.setOnClickListener(new View.OnClickListener() {
