@@ -1,5 +1,8 @@
 package fr.will421.tp4_correction;
 
+import android.app.PendingIntent;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationManagerCompat;
@@ -16,10 +19,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     
+        Intent githubIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com"));
+        PendingIntent githubPendingIntent =
+                PendingIntent.getActivity(this, 0, githubIntent, 0);
+        
         final NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(this)
                 .setSmallIcon(android.R.drawable.sym_def_app_icon)
                 .setContentTitle("Hello world")
-                .setPriority(NotificationCompat.PRIORITY_DEFAULT);
+                .setPriority(NotificationCompat.PRIORITY_DEFAULT)
+                .addAction(android.R.drawable.ic_menu_compass, "Go to github",
+                        githubPendingIntent);
     
     
         Button b = (Button) findViewById(R.id.button);
