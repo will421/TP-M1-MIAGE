@@ -13,8 +13,8 @@ Les notifications sont un moyen d'afficher un message à un utilisateur et de lu
 * Créer un nouveau projet avec une "empty activity"
 * Ajouter un bouton avec un texte "Go !"
 
-> Vous pouvez utiliser `android.R.drawable.sym_def_app_icon` comme icône.
 * Afficher une notification qui affiche le texte "Hello World" lors de l'appui sur le bouton
+> Vous pouvez utiliser `android.R.drawable.sym_def_app_icon` comme icône.
 * Ajouter à cette notification un bouton "d'action" ouvrant la page web <https://github.com>
 > Pour aider : <https://developer.android.com/guide/components/intents-common.html#Browser>
 >
@@ -46,7 +46,7 @@ Les services Android permettent de réaliser des actions en arrière-plan, c'est
 ## Appels REST
 
 Pour étendre les capacités de notre application, nous allons y ajouter des appels à des services REST.
-Le but de cette partie est d'utiliser l'API rendu disponible par <https://yesno.wtf/>.
+Le but de cette partie est d'utiliser l'API rendu disponible par <https://yesno.wtf/api>.
 
 Un appel à cette API retourne ce type de valeur au format JSON :
 
@@ -94,6 +94,7 @@ call.enqueue(new Callback<YesNoAnswer>() {
 * Dans votre activity, à la reception du message du service : Afficher le contenu de `answer` dans une notification.
 * Ajouter un bouton sur la notification : Ce bouton devra ouvrir une page web vers l'url contenu dans `image`
 
-Schéma résultat simplifié : 
+Schéma résultat simplifié :
+> L'envoi de l'intent en broadcast depuis le service à l'activity n'est en réalité pas nécessaire. Le service pourrait ouvrir la notification.
 
 ![Diagramme de séquence simplifié](https://raw.githubusercontent.com/will421/TP-M1-MIAGE/master/TP4/assets/tp4_sequence.PNG "Diagramme de séquence simplifié")
