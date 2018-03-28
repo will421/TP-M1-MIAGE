@@ -44,7 +44,7 @@ Les favoris devront être persistants. C'est à dire qu'ils devront être conser
 
 #### Possibilité 2
 
-Enregistrer les rappels les plus recents pour les re-proposer à l'utilisateurs. Moins d'IHM nécéssaire mais *peut-être* un peu d'algorithme pour proposer le meilleur arrêt+direction en fonction de la quantité d'utilisation et de la date de dernière utilisation ?
+Enregistrer les rappels (arrêt+direction) les plus recents pour les re-proposer à l'utilisateurs. Moins d'IHM nécéssaire mais *peut-être* un peu d'algorithme pour proposer le meilleur arrêt+direction en fonction de la quantité d'utilisation et de la date de dernière utilisation ?
 
 #### Possibilité 3
 
