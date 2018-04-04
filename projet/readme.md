@@ -2,9 +2,9 @@
 
 ## Objectif
 
-L'objectif du projet est de réaliser une application Android de rappel du prochain passage du tram ou bus.
+L'objectif du projet est de réaliser une application Android qui permet de surveiller le prochain passage du tram ou bus.
 Pour cela vous utiliserez l'API REST proposée par Metromobilité : <https://www.metromobilite.fr/pages/opendata/OpenDataApi.html>
-L'affichage des rappels sera fait en utilisant des notifications.
+L'affichage des informations de l'arrêt+direction surveillés sera fait en utilisant des notifications.
 
 > Ce sujet sera mis à jour en fonctions des nouvelles idées, retours et remarques. Surveillez de temps en temps qu'un nouveau commit n'est pas apparu sur le git, ça peut être une information pouvant vous aider.
 
@@ -32,19 +32,19 @@ L'affichage devra contenir le temps d'attente pour le prochain passage et option
 #### Etape 2 : Fonctionne même lorsque l'application n'est plus au premier plan
 
 L'affichage devra en plus être fait par l'intermédiaire d'une notification. Y afficher l'arrêt, la direction, le temps d'attente pour le prochain passage et optionnellement, celui d'après.
-Toucher la notification renverra vers la page de configuration du rappel.
+Toucher la notification renverra vers la page de configuration de la surveillance.
 > Attention aux Threads, un `IntentService` en crée déjà un par défaut.
 
-### Simplifier le parametrage du rappel pour l'utilisateur
+### Simplifier le parametrage de la surveillance pour l'utilisateur
 
 #### Possibilité 1
 
-Permettre l'enregistrement, la sélection et la suppression d'arrêt+direction en favoris.
+Permettre l'enregistrement, la sélection et la suppression des "surveillances" (d'arrêt+direction) en favoris.
 Les favoris devront être persistants. C'est à dire qu'ils devront être conservés aux travers des lancements de l'application.
 
 #### Possibilité 2
 
-Enregistrer les rappels (arrêt+direction) les plus recents pour les re-proposer à l'utilisateurs. Moins d'IHM nécéssaire mais *peut-être* un peu d'algorithme pour proposer le meilleur arrêt+direction en fonction de la quantité d'utilisation et de la date de dernière utilisation ?
+Enregistrer les "surveillances" (arrêt+direction) les plus recentes pour les re-proposer à l'utilisateurs. Moins d'IHM nécéssaire mais *peut-être* un peu d'algorithme pour proposer la meilleure "surveillance" (arrêt+direction) en fonction de la quantité d'utilisation et de la date de dernière utilisation ?
 
 #### Possibilité 3
 
