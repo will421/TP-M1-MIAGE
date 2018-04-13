@@ -82,7 +82,20 @@ C'est votre application et vous en êtes le premier utilisateur, si vous pensez 
 ## Modalités d'évaluation du projet
 
 Le projet s'effectue en binôme. M'envoyer un mail à `william.bobo@hardis.fr` pour l'annoncer en début de projet.
-Le projet donne lieu à un livrable sous forme d'une archive `NOM1_NOM2.zip`
+Le projet donne lieu :
+
+* à une présentation orale
+* à un livrable sous forme d'une archive `NOM1_NOM2.zip`
+
+### Présentation orale
+
+Date : **le 16 mai 2018**
+
+Lieu : **salle 214**
+
+* Chaque groupe sera convoqué à une heure _à definir_.
+* Vous aurez 8 minutes pour faire une présentation de votre application, de ses fonctionnalités, justifier vos choix, problèmes rencontrés...
+* Il est conseillé de venir 15-20 minutes plus tôt pour préparer votre machine si vous en utilisez une, tout temps perdu sera déduit de votre présentation.
 
 ### Remise du projet
 
@@ -92,10 +105,10 @@ Préparer une archive contenant :
 * un répertoire « doc » avec
   * Vos fichiers images de diagramme de séquence.
   * Vos fichiers image de maquette IHM pré-développement.
-  * Un fichier « compte-rendu.pdf » présentant un brève compte rendu de l’état du projet (états d’avancement : étapes réalisées et étapes non réalisées, difficultés rencontrées, choix d’architecture, idées d’améliorations).
+  * Un fichier « compte-rendu.pdf » présentant un brève compte rendu de l’état du projet (états d’avancement : étapes réalisées et étapes non réalisées, difficultés rencontrées, choix d’architecture, idées d’améliorations). Si vous vous êtes repartis des taches : Préciser lesquelles.
 * un répertoire « bin » avec le fichier binaire « apk » de l’application
 
-Ce fichier sera envoyé à déposer sur le moodle avant le *To be defined (autour de mai)*.
+Ce fichier sera envoyé à déposer sur le moodle avant le **14 mai 2018 23h55**.
 
 L'évaluation du projet tiendra compte de la présentation, de l’état d’avancement du projet, des fonctionnalités implémentées, de l’ergonomie de l’application et de la qualité des livrables (documents et code source).
 
