@@ -97,7 +97,7 @@ Préparer une archive contenant :
   * Un fichier « compte-rendu.pdf » présentant un brève compte rendu de l’état du projet (états d’avancement : étapes réalisées et étapes non réalisées, difficultés rencontrées, choix d’architecture, idées d’améliorations). Si vous vous êtes repartis des taches : Préciser lesquelles.
 * un répertoire « bin » avec le fichier binaire « apk » de l’application
 
-Ce fichier sera envoyé à déposer sur le moodle avant le **17 mai 2018 23h55**.
+Ce fichier sera envoyé à déposer sur le moodle avant le **18 mai 2018 23h55**.
 
 L'évaluation du projet tiendra compte de la présentation, de l’état d’avancement du projet, des fonctionnalités implémentées, de l’ergonomie de l’application et de la qualité des livrables (documents et code source).
 
